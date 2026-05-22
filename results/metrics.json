@@ -1,0 +1,11 @@
+{
+  "classification_accuracy": 0.06071871127633209,
+  "classification_precision_weighted": 0.06697609505730191,
+  "classification_recall_weighted": 0.06071871127633209,
+  "clustering_best_k": 6,
+  "clustering_silhouette": 0.3896216198058341,
+  "regression_rmse": 31099.39290833168,
+  "regression_mae": 22538.53575082801,
+  "regression_r2": 0.8031258540736719,
+  "regression_residual_std": 31092.118242317814
+}

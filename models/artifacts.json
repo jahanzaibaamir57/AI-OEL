@@ -1,0 +1,41 @@
+{
+  "cluster_feature_order": [
+    "average_rain_fall_mm_per_year",
+    "pesticides_tonnes",
+    "avg_temp"
+  ],
+  "classification_feature_order": [
+    "Area",
+    "Year",
+    "average_rain_fall_mm_per_year",
+    "pesticides_tonnes",
+    "avg_temp"
+  ],
+  "regression_feature_order": [
+    "Area",
+    "Item",
+    "Year",
+    "average_rain_fall_mm_per_year",
+    "pesticides_tonnes",
+    "avg_temp"
+  ],
+  "cluster_guidance": {
+    "0": "Lower rainfall zone: prioritize moisture conservation and drip irrigation.",
+    "1": "Lower rainfall zone: prioritize moisture conservation and drip irrigation.",
+    "2": "High pesticide load zone: optimize integrated pest management practices.",
+    "3": "High pesticide load zone: optimize integrated pest management practices.",
+    "4": "Balanced zone: maintain current irrigation and monitoring schedule.",
+    "5": "Balanced zone: maintain current irrigation and monitoring schedule."
+  },
+  "metrics": {
+    "classification_accuracy": 0.06071871127633209,
+    "classification_precision_weighted": 0.06697609505730191,
+    "classification_recall_weighted": 0.06071871127633209,
+    "clustering_best_k": 6,
+    "clustering_silhouette": 0.3896216198058341,
+    "regression_rmse": 31099.39290833168,
+    "regression_mae": 22538.53575082801,
+    "regression_r2": 0.8031258540736719,
+    "regression_residual_std": 31092.118242317814
+  }
+}

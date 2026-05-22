@@ -1,0 +1,35 @@
+{
+  "numeric_columns": [
+    "Year",
+    "average_rain_fall_mm_per_year",
+    "pesticides_tonnes",
+    "avg_temp",
+    "hg/ha_yield"
+  ],
+  "categorical_columns": [
+    "Area",
+    "Item"
+  ],
+  "outlier_iqr_bounds": {
+    "Year": [
+      1975.5,
+      2027.5
+    ],
+    "average_rain_fall_mm_per_year": [
+      -1019.5,
+      3280.5
+    ],
+    "pesticides_tonnes": [
+      -68776.81999999999,
+      119166.69999999998
+    ],
+    "avg_temp": [
+      2.7562500000000014,
+      39.94625
+    ],
+    "hg/ha_yield": [
+      -107217.0,
+      231813.0
+    ]
+  }
+}

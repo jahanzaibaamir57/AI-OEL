@@ -1,0 +1,8 @@
+column,dtype,missing_values,unique_values,example
+Area,str,0,101,Albania
+Item,str,0,10,Maize
+Year,int64,0,23,1990
+hg/ha_yield,int64,0,10834,36613
+average_rain_fall_mm_per_year,float64,0,100,1485.0
+pesticides_tonnes,float64,0,1658,121.0
+avg_temp,float64,0,1823,16.37
