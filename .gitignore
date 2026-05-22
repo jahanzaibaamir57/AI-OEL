@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+*.log
+# Ignore Python package artifacts
+*.whl
+
+# Optional: large data or model artifacts (uncomment if you want to exclude)
+# models/*.joblib
+# results/*
